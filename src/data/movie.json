@@ -1,0 +1,200 @@
+[
+    {
+        "id": 1,
+        "movieName": "Kantara",
+        "movieDescription": "A best movie ever Lorem das banti testing.",
+        "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSr-WKnsOp7YBra7WsdhX8TyXV3Xdz2tTaMbCFzcTx_0C82U4go",
+        "imdbRating": 8.9,
+        "googleRating": 9,
+        "likes": 55634,
+        "type": "Thriller",
+        "isAdult": false
+    },
+    {
+        "id": 2,
+        "movieName": "Inception",
+        "movieDescription": "A mind-bending thriller by Christopher Nolan Magna voluptate ullamco deserunt dolore aliquip tempor.Nostrud voluptate culpa dolore enim officia.",
+        "poster": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQovCe0H45fWwAtV31ajOdXRPTxSsMQgPIQ3lcZX_mAW0jXV3kH",
+        "imdbRating": 8.8,
+        "googleRating": 8.9,
+        "likes": 980000,
+        "type": "Sci-Fi",
+        "isAdult": false
+    },
+    {
+        "id": 3,
+        "movieName": "The Dark Knight",
+        "movieDescription": "Batman faces Joker in Gotham City",
+        "poster": "https://www.themoviedb.org/t/p/original/qJ2tW6WMUDux911r6m7haRef0WH.jpg",
+        "imdbRating": 9.0,
+        "googleRating": 9.1,
+        "likes": 1500000,
+        "type": "Action",
+        "isAdult": false
+    },
+    {
+        "id": 4,
+        "movieName": "Interstellar",
+        "movieDescription": "Exploration through space and time",
+        "poster": "https://www.themoviedb.org/t/p/original/rAiYTfKGqDCRIIqo664sY9XZIvQ.jpg",
+        "imdbRating": 8.6,
+        "googleRating": 9.3,
+        "likes": 1400000,
+        "type": "Adventure",
+        "isAdult": false
+    },
+    {
+        "id": 5,
+        "movieName": "KGF Chapter 2",
+        "movieDescription": "Rise of Rocky in the gold mines",
+        "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT382SdqjMvWMYkojMNJ1ckGG9BUxT4IoQLgptxSuGT-Ug3JiBd",
+        "imdbRating": 8.4,
+        "googleRating": 9.2,
+        "likes": 1200000,
+        "type": "Action",
+        "isAdult": false
+    },
+    {
+        "id": 6,
+        "movieName": "Avengers: Endgame",
+        "movieDescription": "Avengers assemble for one last stand",
+        "poster": "https://www.themoviedb.org/t/p/original/or06FN3Dka5tukK1e9sl16pB3iy.jpg",
+        "imdbRating": 8.4,
+        "googleRating": 9,
+        "likes": 2100000,
+        "type": "Superhero",
+        "isAdult": false
+    },
+    {
+        "id": 7,
+        "movieName": "Parasite",
+        "movieDescription": "A tale of class divide in South Korea",
+        "poster": "https://www.themoviedb.org/t/p/original/7IiTTgloJzvGI1TAYymCfbfl3vT.jpg",
+        "imdbRating": 8.6,
+        "googleRating": 8.7,
+        "likes": 600000,
+        "type": "Drama",
+        "isAdult": true
+    },
+    {
+        "id": 8,
+        "movieName": "Pushpa: The Rise",
+        "movieDescription": "Red sanders smuggler rises to power",
+        "poster": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTEBj8p-ynRkaIk4luHnF02ahyCJ6epbBOt_6dTS5fBWs7rqC-E",
+        "imdbRating": 7.7,
+        "googleRating": 8.8,
+        "likes": 850000,
+        "type": "Action",
+        "isAdult": false
+    },
+    {
+        "id": 9,
+        "movieName": "Joker",
+        "movieDescription": "Origin story of the iconic villain",
+        "poster": "https://www.themoviedb.org/t/p/original/udDclJoHjfjb8Ekgsd4FDteOkCU.jpg",
+        "imdbRating": 8.4,
+        "googleRating": 8.9,
+        "likes": 1100000,
+        "type": "Crime",
+        "isAdult": true
+    },
+    {
+        "id": 10,
+        "movieName": "Shershaah",
+        "movieDescription": "Biopic of Captain Vikram Batra",
+        "poster": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQ5f-6Oa6R5-fOIa32AIQBvhtVFzHVGqLX3sLAfM68knIHiEMUh",
+        "imdbRating": 8.4,
+        "googleRating": 9,
+        "likes": 750000,
+        "type": "Biography",
+        "isAdult": false
+    },
+    {
+        "id": 11,
+        "movieName": "Drishyam 2",
+        "movieDescription": "A man covers his tracks again",
+        "poster": "https://www.themoviedb.org/t/p/original/8u0QBGUbZcBW59VEAdmeFl9g98N.jpg",
+        "imdbRating": 8.3,
+        "googleRating": 9.1,
+        "likes": 870000,
+        "type": "Thriller",
+        "isAdult": false
+    },
+    {
+        "id": 12,
+        "movieName": "Bahubali: The Beginning",
+        "movieDescription": "A boy grows into a warrior king",
+        "poster": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSDRNYFW-fzP9z3YXbifCIkR-cQUyheoG6gdL1hkdIKT20OKGOF",
+        "imdbRating": 8.1,
+        "googleRating": 8.8,
+        "likes": 1800000,
+        "type": "Fantasy",
+        "isAdult": false
+    },
+    {
+        "id": 13,
+        "movieName": "Bahubali: The Conclusion",
+        "movieDescription": "The epic tale reaches its climax",
+        "poster": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTnMA16Y55ki6WxoLTdTmxNnKwYCZiNwi0DvCakttCRBQgZyJpJ",
+        "imdbRating": 8.2,
+        "googleRating": 9.2,
+        "likes": 2000000,
+        "type": "Fantasy",
+        "isAdult": false
+    },
+    {
+        "id": 14,
+        "movieName": "Dangal",
+        "movieDescription": "A father trains his daughters to wrestle",
+        "poster": "https://www.themoviedb.org/t/p/original/p2lVAcPuRPSO8Al6hDDGw0OgMi8.jpg",
+        "imdbRating": 8.4,
+        "googleRating": 8.7,
+        "likes": 1700000,
+        "type": "Sports",
+        "isAdult": false
+    },
+    {
+        "id": 15,
+        "movieName": "RRR",
+        "movieDescription": "Two revolutionaries fight against the British",
+        "poster": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRx0wTDoneV8OuMM6hNfD7vfibB_jt6FcCL-u8H2DljlRXgGCoG",
+        "imdbRating": 8.0,
+        "googleRating": 9.0,
+        "likes": 1600000,
+        "type": "Action",
+        "isAdult": false
+    },
+    {
+        "id": 16,
+        "movieName": "The Kashmir Files",
+        "movieDescription": "Based on true events from Kashmir",
+        "poster": "https://www.themoviedb.org/t/p/original/5DNRr2juXdwtvktwXxwuk9Usk8O.jpg",
+        "imdbRating": 8.3,
+        "googleRating": 8.9,
+        "likes": 900000,
+        "type": "Drama",
+        "isAdult": false
+    },
+    {
+        "id": 17,
+        "movieName": "Gully Boy",
+        "movieDescription": "A young rapper rises from the streets of Mumbai",
+        "poster": "https://upload.wikimedia.org/wikipedia/en/0/07/Gully_Boy_poster.jpg",
+        "imdbRating": 7.9,
+        "googleRating": 8.3,
+        "likes": 600000,
+        "type": "Musical",
+        "isAdult": false
+    },
+    {
+        "id": 18,
+        "movieName": "Chhichhore",
+        "movieDescription": "A group of friends relive their college days",
+        "poster": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTR7lN6yKpdOvxKUBIdGX_HpkBFW5FDup4gzgMnumJzer8KEt9i",
+        "imdbRating": 8.3,
+        "googleRating": 9.0,
+        "likes": 700000,
+        "type": "Comedy",
+        "isAdult": false
+    }
+]
