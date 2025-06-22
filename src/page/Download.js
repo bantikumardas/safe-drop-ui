@@ -14,41 +14,6 @@ const Download = () => {
   const [fileLink, setFileLink] = useState("");
   const [loading, setLoading] = useState(false);
 
-  const handleViewFile = (e) => {
-    e.preventDefault();
-    if (fileLink) {
-      window.location.href =
-        "https://file-share-backend-api.onrender.com/" + fileLink; // Opens in same tab
-    } else {
-      alert("File link not available");
-    }
-  };
-
-  const handleDownloadFile = async (e) => {
-    e.preventDefault();
-    if (!fileLink) {
-      alert("File link not available");
-      return;
-    }
-
-    try {
-      const response = await fetch(fileLink);
-      const blob = await response.blob();
-
-      const url = window.URL.createObjectURL(blob);
-      const a = document.createElement("a");
-      a.href = url;
-      a.download = fileName || "downloaded-file"; // Fallback name
-      document.body.appendChild(a);
-      a.click();
-      a.remove();
-      window.URL.revokeObjectURL(url);
-    } catch (error) {
-      alert("Failed to download file");
-      console.error(error);
-    }
-  };
-
   const formateFileSize = (bytes) => {
     if (bytes === 0) return "0 Bytes";
 
@@ -95,9 +60,12 @@ const Download = () => {
       return;
     }
     setLoading(true);
-    fetch(`http://localhost:8080/file/api/view?key=${key}&code=${code}`, {
-      method: "GET",
-    })
+    fetch(
+      `${process.env.REACT_APP_BACKEND_BASE_URL}/file/api/view?key=${key}&code=${code}`,
+      {
+        method: "GET",
+      }
+    )
       .then((response) => response.json())
       .then((result) => {
         setLoading(false);
@@ -230,12 +198,12 @@ const Download = () => {
                 </p>
 
                 <div className="flex justify-center gap-4">
-                  <button
+                  {/* <button
                     className="bg-green-500 text-white px-4 py-2 rounded hover:bg-green-600"
                     onClick={handleViewFile}
                   >
                     View File
-                  </button>
+                  </button> */}
                   <a
                     href={fileLink}
                     download={fileName || "downloaded-file"}

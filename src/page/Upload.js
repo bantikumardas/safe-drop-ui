@@ -67,9 +67,10 @@ const Upload = () => {
 
     formData.append("file", jsonBlob);
     formData.append("multipartFile", file);
-
+    const baseUrl = process.env.REACT_APP_BACKEND_BASE_URL;
+    console.log("base url is " + baseUrl);
     const xhr = new XMLHttpRequest();
-    xhr.open("POST", "http://localhost:8080/file/api/upload", true);
+    xhr.open("POST", `${baseUrl}/file/api/upload`, true);
 
     // Track upload progress
     xhr.upload.onprogress = (event) => {
