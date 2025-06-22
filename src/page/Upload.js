@@ -103,7 +103,7 @@ const Upload = () => {
 
   return (
     <>
-      <Header></Header>
+      <Header message="Please wait file is being uploading....."></Header>
       <div className="min-h-screen bg-gradient-to-br from-blue-50 to-blue-100 flex items-center justify-center px-4">
         <div className="bg-white shadow-md rounded-md p-4 w-full max-w-md">
           <h2 className="text-2xl font-semibold text-center mb-6">
@@ -115,6 +115,9 @@ const Upload = () => {
               <label className="block mb-1 font-medium">
                 File <span className="text-red-500">*</span>
               </label>
+              <span className="text-blue-500 text-xs">
+                File size should be less than 100MB
+              </span>
               <input
                 type="file"
                 required

@@ -77,9 +77,11 @@ const Download = () => {
         setUploadTime(formatEpochToDateTime(result.uploadTime));
       })
       .catch((error) => {
+        console.log("errro " + error);
         setLoading(false);
         setShowErrorModal(true);
-        setErrorMsg(error);
+        setShowsuccessModal(false);
+        setErrorMsg(error.message || "An unexpacted error occured");
       });
     // Simulate download success (replace with real download logic)
     console.log("Initiating download for", { key, code });
@@ -93,7 +95,9 @@ const Download = () => {
   return (
     <>
       <Header></Header>
-      {loading && <Lodder></Lodder>}
+      {loading && (
+        <Lodder message="Please wait file is being ready to Download..."></Lodder>
+      )}
       <div className="min-h-screen bg-gradient-to-br from-blue-50 to-blue-100 flex items-center justify-center px-4">
         <div className="bg-white shadow-md rounded-md p-6 w-full max-w-md relative">
           <h2 className="text-2xl font-semibold text-center mb-2">
